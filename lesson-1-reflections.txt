@@ -30,3 +30,15 @@ docs does?
     line in our code but a version might be saved with that incomplete line. This
     might lead to a code that might not even even execute. So that copy of code 
     is of no use and might lead to confusions among the users of that code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Some VCS,like Git, allow saving multiple files in order to reflect all changes
+    made simultaneously in different files. While with others, like Google Docs, which 
+    treat each file separately, it becomes quite tedious and annoying to go through revision
+    and check which files were modified at a particular time to reflect upon changes 
+    made simultaneously in different files. VCS, like Git, makes it much more
+    convenient to keep track of changes made at a particular time simultaneously
+    in more than 1 file. So tracking of changes becomes a lot more quick and easy
+    with VCS like Git.
