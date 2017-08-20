@@ -5,3 +5,10 @@ was introduced?
 	FC on Windows. As the previous version was running fine and the bug came to 
 	exist after we made changes to the existing version, so it was quite obvious 
 	to check the statements where we made some changes to spot the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having easy access to the entire history of a file can help us spot bugs 
+	that creep into our code. It can be done by comparing the two files for 
+	comparing differences between the code contained in the two files.
