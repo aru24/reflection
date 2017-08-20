@@ -56,3 +56,11 @@ How can you use the commands git log and git diff to view the history of files?
     to see the difference between the two versions. Lines with '+' are the ones 
     that have been added and lines with '-' are the ones that have been removed 
     from the code.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    As we can have copies of previous versions that had been working well, we
+    can dare to take up a challenge of adding new features and try to implement 
+    them in our code without worrying about losing the working versions of our app.
+    Hence we can confidently make changes that are expected to even break something.
