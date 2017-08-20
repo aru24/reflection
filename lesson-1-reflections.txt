@@ -1,0 +1,7 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    We could spot the differences between the two files that we compared using 
+	FC on Windows. As the previous version was running fine and the bug came to 
+	exist after we made changes to the existing version, so it was quite obvious 
+	to check the statements where we made some changes to spot the bug.
