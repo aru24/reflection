@@ -64,3 +64,7 @@ could break something?
     can dare to take up a challenge of adding new features and try to implement 
     them in our code without worrying about losing the working versions of our app.
     Hence we can confidently make changes that are expected to even break something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To start making good projects like working on an app for my institute.
