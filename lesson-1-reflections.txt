@@ -42,3 +42,17 @@ files in one commit, while others, like Google Docs, treat each file separately?
     convenient to keep track of changes made at a particular time simultaneously
     in more than 1 file. So tracking of changes becomes a lot more quick and easy
     with VCS like Git.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    USING git log command -
+    We first enter the repository whose log we want to check. Then we type 
+    'git log' to see the entire history of the different versions of our code 
+    with small descriptions of the changes made.
+
+    USING git diff command - 
+    We enter the repository in which we want to compare different versions of 
+    the code. We type the command 'git diff first_commit_id second_commit_id' 
+    to see the difference between the two versions. Lines with '+' are the ones 
+    that have been added and lines with '-' are the ones that have been removed 
+    from the code.
