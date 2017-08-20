@@ -12,3 +12,21 @@ efficient programmer in the long term?
     Having easy access to the entire history of a file can help us spot bugs 
 	that creep into our code. It can be done by comparing the two files for 
 	comparing differences between the code contained in the two files.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manual commit - We can save versions after genuine logical changes 
+    and write a shot description for the same.
+    Cons of manual commit - We might end up doing too much work without committing
+    if we forget to create a commit.
+    Pros of automatic saving of versions - We do not have to worry about creating 
+    commits and there is nothing to worry about forgetting to create a commit.
+    Cons of automatic saving of versions - We might not have made any significant 
+    change in our code but as programmed the software that we are using for automatic
+    saving of versions might save a copy of the current version. So that might lead 
+    to creation of unimportant commits. Also we might have not even completed a 
+    line in our code but a version might be saved with that incomplete line. This
+    might lead to a code that might not even even execute. So that copy of code 
+    is of no use and might lead to confusions among the users of that code.
