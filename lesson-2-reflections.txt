@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+	A '.git' fiel is created when we initialize a repository. 
+	We need to do this in order to tell git to start tracking the files 
+	that are present in our repository.
