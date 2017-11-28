@@ -1,0 +1,70 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    We could spot the differences between the two files that we compared using 
+	FC on Windows. As the previous version was running fine and the bug came to 
+	exist after we made changes to the existing version, so it was quite obvious 
+	to check the statements where we made some changes to spot the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having easy access to the entire history of a file can help us spot bugs 
+	that creep into our code. It can be done by comparing the two files for 
+	comparing differences between the code contained in the two files.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manual commit - We can save versions after genuine logical changes 
+    and write a shot description for the same.
+    Cons of manual commit - We might end up doing too much work without committing
+    if we forget to create a commit.
+    Pros of automatic saving of versions - We do not have to worry about creating 
+    commits and there is nothing to worry about forgetting to create a commit.
+    Cons of automatic saving of versions - We might not have made any significant 
+    change in our code but as programmed the software that we are using for automatic
+    saving of versions might save a copy of the current version. So that might lead 
+    to creation of unimportant commits. Also we might have not even completed a 
+    line in our code but a version might be saved with that incomplete line. This
+    might lead to a code that might not even even execute. So that copy of code 
+    is of no use and might lead to confusions among the users of that code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Some VCS,like Git, allow saving multiple files in order to reflect all changes
+    made simultaneously in different files. While with others, like Google Docs, which 
+    treat each file separately, it becomes quite tedious and annoying to go through revision
+    and check which files were modified at a particular time to reflect upon changes 
+    made simultaneously in different files. VCS, like Git, makes it much more
+    convenient to keep track of changes made at a particular time simultaneously
+    in more than 1 file. So tracking of changes becomes a lot more quick and easy
+    with VCS like Git.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    USING git log command -
+    We first enter the repository whose log we want to check. Then we type 
+    'git log' to see the entire history of the different versions of our code 
+    with small descriptions of the changes made.
+
+    USING git diff command - 
+    We enter the repository in which we want to compare different versions of 
+    the code. We type the command 'git diff first_commit_id second_commit_id' 
+    to see the difference between the two versions. Lines with '+' are the ones 
+    that have been added and lines with '-' are the ones that have been removed 
+    from the code.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    As we can have copies of previous versions that had been working well, we
+    can dare to take up a challenge of adding new features and try to implement 
+    them in our code without worrying about losing the working versions of our app.
+    Hence we can confidently make changes that are expected to even break something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To start making good projects like working on an app for my institute.
